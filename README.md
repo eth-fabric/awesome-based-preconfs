@@ -6,16 +6,15 @@ A curated list of resources, research, and implementations related to preconfirm
 - [Introduction](#introduction)
 - [Research and Discussion](#research-and-discussion)
 - [Fair Exchange](https://github.com/eth-fabric/awesome-based-preconfs/edit/main/README.md#fair-exchange)
-- [Sidecars](#Sidecars)
-- [Validators](#Validators)
-- [Universal-Registry-for-Commitments]()
-- [Pricing-and-Incentive-Mechanisms]()
-- [Gateways-and-Delegation]()
-- [Stacks-and-Implmentations]()
-- [Articles]()
-- [Presentations]()
-- [Full-Day-Events]()
-- [Implementations](#Implementations)
+- [Sidecars](https://github.com/eth-fabric/awesome-based-preconfs/blob/main/README.md#sidecars)
+- [Validators](https://github.com/eth-fabric/awesome-based-preconfs/blob/main/README.md#validators)
+- [Universal-Registry-for-Commitments](https://github.com/eth-fabric/awesome-based-preconfs/blob/main/README.md#universal-registry-for-commitments)
+- [Pricing-and-Incentive-Mechanisms](https://github.com/eth-fabric/awesome-based-preconfs/blob/main/README.md#pricing-and-incentive-mechanisms)
+- [Gateways-and-Delegation](https://github.com/eth-fabric/awesome-based-preconfs/blob/main/README.md#gateways-and-delegation)
+- [Stacks-and-Implmentations](https://github.com/eth-fabric/awesome-based-preconfs/blob/main/README.md#stacks-and-implmentations)
+- [Articles](https://github.com/eth-fabric/awesome-based-preconfs/blob/main/README.md#articles)
+- [Presentations](https://github.com/eth-fabric/awesome-based-preconfs/blob/main/README.md#presentations)
+- [Full-Day-Events](https://github.com/eth-fabric/awesome-based-preconfs/blob/main/README.md#full-day-events)
 - [Related Concepts](#related-concepts)
 - [Contributing](#contributing)
 
@@ -75,15 +74,12 @@ Preconfirmations are a mechanism that allows block proposers to commit to a bloc
 
 ## Stacks-and-Implmentations
 - [Bolt](https://chainbound.github.io/bolt-docs/) - Bolt enables Ethereum block proposers to provide credible commitments about the contents of their blocks.
-- [Espresso](https://docs.espressosys.com/sequencer) - Espresso allows applications to sell their sequencing rights through an open marketplace. 
 - [mev-commit](https://docs.primev.xyz/) - A credible commitment network used for preconfirmations & more.
-- [Preconfirmations: On splitting the block, mev-boost compatibility and relays](https://ethresear.ch/t/preconfirmations-on-splitting-the-block-mev-boost-compatibility-and-relays/19837)
 - XGA [here](https://docs.xga.com) and [here](https://research.lido.fi/t/xga-extensible-gas-auctions-for-enabling-preconfirmations-without-restaking-or-epbs/7584) - L2 Gas Auction platform.
-- [UniFi](https://docs.puffer.fi/unifi-avs-intro/)
-- [Gattaca](https://x.com/gattacahq/status/1890466706595680278)
-- [Interstate](https://docs.interstate.so/intro)
-- [Luban Taiyi](https://docs.luban.wtf/taiyi_overview)
-- [ETHGas](https://docs.ethgas.com)
+- [UniFi](https://docs.puffer.fi/unifi-avs-intro/) - preconf protocol.
+- [Interstate](https://docs.interstate.so/intro) - preconf protocol.
+- [Luban Taiyi](https://docs.luban.wtf/taiyi_overview) - preconf protocol.
+- [ETHGas](https://docs.ethgas.com) - preconf protocol.
 
 ## Articles
 - [Preconfirmation for the Average Joe](https://x.com/ceciliaz030/status/1875558701324759392) - Simple explnation on preconfs.
@@ -91,6 +87,7 @@ Preconfirmations are a mechanism that allows block proposers to commit to a bloc
 - [Preconfirmations: Credible Promise of Future Execution](https://www.longhash.vc/post/preconfirmations-credible-promise-of-future-execution) - Overview of research around preconfs.
 - [Preconfirmations: The Fulfillment-Delivery Paradigm](https://mirror.xyz/preconf.eth/sgcuSbd1jgaRXj9odSJW-_OlWIg6jcDREw1hUJnXtgI) - Proposes a formal definition for a preconfirmation, outlined how they’re relevant in the context of decentralized systems and mev, and analyzed considerations to enable them efficiently.
 - [Preconfirmations: Explained](https://www.luganodes.com/blog/preconfirmations-explained/) - Preconfs 101.
+- [Preconfirmations: On splitting the block, mev-boost compatibility and relays](https://ethresear.ch/t/preconfirmations-on-splitting-the-block-mev-boost-compatibility-and-relays/19837) - Article discussing XGA style preconfs.
 
 ## Presentations
 - [Get Ready for Preconfs: Are They the Future of Ethereum?](https://www.youtube.com/watch?v=89-S4IvbAwg)
@@ -101,20 +98,16 @@ Preconfirmations are a mechanism that allows block proposers to commit to a bloc
 - [Based Preconfirmations with MR-MEV-Boost](https://www.youtube.com/watch?v=fo2xDLSst_M)
 - [How to price your Preconfirmation](https://ethcc.io/archives/how-to-price-your-preconfirmation)
 - [Preconfirmations on Ethereum with Bolt: Impact on Node Operators](https://www.youtube.com/watch?v=m_JzE-7lwM8&list=PLhvXP1-8VKZRol0ZQHabpm2vmMlq1yG2E&index=27&t=6s)
-- 
 
 ## Full-Day-Events
 - ZuBerlin - 2024
- - [Drew, Kubi, Lorenzo - Commit-Boost](https://streameth.org/zuberlin/watch?session=66681afef9b8e98b1ec95fdd) - Introducing the Commit-Boost effort, including a walkthrough of the code.
- - [Daniel - LimeChain](https://streameth.org/zuberlin/watch?session=66684f7006eda795c8925909) - Dicusses how preconfirmations interact with the L1 PBS pipeline.
- - [Conor - Switchboard](https://streameth.org/zuberlin/watch?session=66682e25f9b8e98b1ec98882) - Introduces Preconfirmations Sauna, a credibly neutral effort to standardise preconfirmations.
- - [Harry - Luban](https://streameth.org/zuberlin/watch?session=6668652806eda795c89291b2) - Shares a lottery mechanism for pricing preconfirmations.
- - [Jonas - Chainbound](https://streameth.org/zuberlin/watch?session=666828e8f9b8e98b1ec97e79) - Shares how Bolt enables L1 preconfirmations.
- - [Christian - Primev](https://streameth.org/zuberlin/watch?session=66685ecd06eda795c8928664) - Shares how mev-commit enables L1 preconfirmations.
- - [Tariz - Radius](https://streameth.org/zuberlin/watch?session=66686a3306eda795c892964e) - Shares how Radius integrates based sequencing.
-
-## Implementations
-
+   - [Drew, Kubi, Lorenzo - Commit-Boost](https://streameth.org/zuberlin/watch?session=66681afef9b8e98b1ec95fdd) - Introducing the Commit-Boost effort, including a walkthrough of the code.
+   - [Daniel - LimeChain](https://streameth.org/zuberlin/watch?session=66684f7006eda795c8925909) - Dicusses how preconfirmations interact with the L1 PBS pipeline.
+   - [Conor - Switchboard](https://streameth.org/zuberlin/watch?session=66682e25f9b8e98b1ec98882) - Introduces Preconfirmations Sauna, a credibly neutral effort to standardise preconfirmations.
+   - [Harry - Luban](https://streameth.org/zuberlin/watch?session=6668652806eda795c89291b2) - Shares a lottery mechanism for pricing preconfirmations.
+   - [Jonas - Chainbound](https://streameth.org/zuberlin/watch?session=666828e8f9b8e98b1ec97e79) - Shares how Bolt enables L1 preconfirmations.
+   - [Christian - Primev](https://streameth.org/zuberlin/watch?session=66685ecd06eda795c8928664) - Shares how mev-commit enables L1 preconfirmations.
+   - [Tariz - Radius](https://streameth.org/zuberlin/watch?session=66686a3306eda795c892964e) - Shares how Radius integrates based sequencing.
 
 ## Related Concepts
 - [Proposer-Builder Separation (PBS)](https://github.com/ethereum/builder-specs) - A related concept that separates the roles of proposers and builders in the Ethereum consensus layer.
