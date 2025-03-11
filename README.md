@@ -43,6 +43,7 @@ Preconfirmations are a mechanism that allows block proposers to commit to a bloc
 - [Commit-Boost: Proposer Platform to Safely Make Commitments](https://ethresear.ch/t/commit-boost-proposer-platform-to-safely-make-commitments/20107) - New sidecar that allows proposers to make commitments to preconf protocols.
 - [Based proposer commitments - Ethereum’s marketplace for proposer commitments](https://ethresear.ch/t/based-proposer-commitments-ethereum-s-marketplace-for-proposer-commitments) - New sidecar that allows proposers to make commitments to preconf protocols.
 - [Block Building Pipelines for Vanilla Based Rollups](https://github.com/LimeChain/based-preconfirmations-research/blob/732cb92474554c2529aabc61e83b8f0934ce6adf/docs/pipelines.md)
+- [Commit-Boost Community Calls](https://github.com/Commit-Boost/pm/tree/main/Community_Calls)
 
 ## Validators
 - [Delegation in Bolt: Outsourcing Sophistication While Preserving Decentralization](https://research.chainbound.io/delegation-in-bolt-outsourcing-sophistication-while-preserving-decentralization) - Article explores various “levels” of delegation from proposers for preconfs. 
@@ -64,6 +65,7 @@ Preconfirmations are a mechanism that allows block proposers to commit to a bloc
 - [A Pricing Model for Inclusion Preconfirmations](https://research.lido.fi/t/a-pricing-model-for-inclusion-preconfirmations/9136) - Article focuses on the pricing of inclusion preconfirmations.
 - [Pricing Future Blockspace: A Data-driven Approach](https://www.luban.wtf/taiyi-pricing-1) - Introduce a pricing model developed for hedged preconfirmations with a focus on preserving underwriter funds and generating steady yields.
 - [Analysing Expected Proposer Revenue from Preconfirmations](https://research.lido.fi/t/analysing-expected-proposer-revenue-from-preconfirmations/8954) - Article exploring expected revenue from preconfirmations vs the current MEV-Boost acution.
+- [Value-Capturing Based Rollups with Based Preconfirmations](https://collective.flashbots.net/t/value-capturing-based-rollups-with-based-preconfirmations/2884) - Outlines a protocol which allows for based preconfirmations, while ensuring the based rollup captures much of the value generated from block building.
 
 ## Gateways-and-Delegation
 - [The Preconfirmation Gateway ~ Unlocking Preconfirmations: From User to Preconfer](https://ethresear.ch/t/the-preconfirmation-gateway-unlocking-preconfirmations-from-user-to-preconfer/18812) - Introduces The Preconfirmation Gateway to completely abstract preconfirmations from users.
@@ -89,10 +91,17 @@ Preconfirmations are a mechanism that allows block proposers to commit to a bloc
 - [Preconfirmations: Credible Promise of Future Execution](https://www.longhash.vc/post/preconfirmations-credible-promise-of-future-execution) - Overview of research around preconfs.
 - [Preconfirmations: The Fulfillment-Delivery Paradigm](https://mirror.xyz/preconf.eth/sgcuSbd1jgaRXj9odSJW-_OlWIg6jcDREw1hUJnXtgI) - Proposes a formal definition for a preconfirmation, outlined how they’re relevant in the context of decentralized systems and mev, and analyzed considerations to enable them efficiently.
 - [Preconfirmations: Explained](https://www.luganodes.com/blog/preconfirmations-explained/) - Preconfs 101.
-- 
-
 
 ## Presentations
+- [Get Ready for Preconfs: Are They the Future of Ethereum?](https://www.youtube.com/watch?v=89-S4IvbAwg)
+- [Based: Sequencing, Preconfs, Ideology](https://www.youtube.com/watch?v=0_51Pqt39Rs)
+- [Preconf Vision and Its Place in Ethereum](https://www.youtube.com/watch?v=qeg9Eyr5W8Y)
+- [Designing an End to End Solution for Based Preconfirmations](https://www.youtube.com/watch?v=70xIIrGXDSo)
+- [A proposer's perspective on preconfirmations: a new game in town?](https://www.youtube.com/watch?v=Wa5O4TMEdwE&t=1s)
+- [Based Preconfirmations with MR-MEV-Boost](https://www.youtube.com/watch?v=fo2xDLSst_M)
+- [How to price your Preconfirmation](https://ethcc.io/archives/how-to-price-your-preconfirmation)
+- [Preconfirmations on Ethereum with Bolt: Impact on Node Operators](https://www.youtube.com/watch?v=m_JzE-7lwM8&list=PLhvXP1-8VKZRol0ZQHabpm2vmMlq1yG2E&index=27&t=6s)
+- 
 
 ## Full-Day-Events
 - ZuBerlin - 2024
