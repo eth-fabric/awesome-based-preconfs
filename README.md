@@ -1,6 +1,6 @@
 # Awesome Preconfirmations [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated list of resources, research, and implementations related to preconfirmations in the Ethereum ecosystem.
+A curated list of resources, research, and implementations related to preconfirmations in the Ethereum ecosystem. Special thanks to [Swapnil](https://x.com/swp0x0) of Nethermind for starting this months ago. With his permission we continue it forward. 
 
 ## Table of Contents
 - [Introduction](#introduction)
