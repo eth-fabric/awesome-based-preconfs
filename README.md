@@ -98,6 +98,12 @@ Preconfirmations are a mechanism that allows block proposers to commit to a bloc
 - [Based Preconfirmations with MR-MEV-Boost](https://www.youtube.com/watch?v=fo2xDLSst_M)
 - [How to price your Preconfirmation](https://ethcc.io/archives/how-to-price-your-preconfirmation)
 - [Preconfirmations on Ethereum with Bolt: Impact on Node Operators](https://www.youtube.com/watch?v=m_JzE-7lwM8&list=PLhvXP1-8VKZRol0ZQHabpm2vmMlq1yG2E&index=27&t=6s)
+- [Credible Commitments: How Pre-Confirmations Unlock L2 Interoperability](https://blockworks.co/podcast/bellcurve/0345b516-eb15-11ee-854f-cbb5ba1433a1)
+- [Learnings From Building The Universal Preconf Registry](https://www.youtube.com/watch?v=j0dIwo-ACr4&list=PLCjVy6JjB1u7dL6cGJgs3RZH4rDgJdGW9&index=9)
+- [To Delay or Not Delay Preconfs](https://www.youtube.com/watch?v=e_49f42Cno0&list=PLCjVy6JjB1u7dL6cGJgs3RZH4rDgJdGW9&index=14)
+- [Sidecar standardization with Commit-Boost](https://www.youtube.com/watch?v=-wWLcwz08iI&list=PLCjVy6JjB1u7dL6cGJgs3RZH4rDgJdGW9&index=17)
+- [How Preconfs & Blockspace Products Make Ethereum Relevant](https://www.youtube.com/watch?v=3QW1XSbBmvQ&list=PLCjVy6JjB1u7dL6cGJgs3RZH4rDgJdGW9&index=20)
+- [Supercharging Ethereum w/ Fast Preconfs & Decentralized Yield Distribution](https://www.youtube.com/watch?v=61qbQTbu5KM&list=PLCjVy6JjB1u7dL6cGJgs3RZH4rDgJdGW9&index=25)
 
 ## Full-Day-Events
 - ZuBerlin - 2024
@@ -108,6 +114,8 @@ Preconfirmations are a mechanism that allows block proposers to commit to a bloc
    - [Jonas - Chainbound](https://streameth.org/zuberlin/watch?session=666828e8f9b8e98b1ec97e79) - Shares how Bolt enables L1 preconfirmations.
    - [Christian - Primev](https://streameth.org/zuberlin/watch?session=66685ecd06eda795c8928664) - Shares how mev-commit enables L1 preconfirmations.
    - [Tariz - Radius](https://streameth.org/zuberlin/watch?session=66686a3306eda795c892964e) - Shares how Radius integrates based sequencing.
+- [Preconf.erence Devcon 7](https://www.youtube.com/playlist?list=PLoHFINX7DFU7q5MTJIEha1Ll2DWVG-zSb)
+- [Preconf.erence ETH Denver](https://www.youtube.com/playlist?list=PLoHFINX7DFU5W6x2b-u_KpbEsbsmJ8qb5)
 
 ## Related Concepts
 - [Proposer-Builder Separation (PBS)](https://github.com/ethereum/builder-specs) - A related concept that separates the roles of proposers and builders in the Ethereum consensus layer.
